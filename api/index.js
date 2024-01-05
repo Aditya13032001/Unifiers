@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://todo:todo@cluster0.j4clupd.mongodb.net/");
+mongoose.connect("MongodB_URL");
 
 // Schemas
 const UserSchema = new mongoose.Schema({
